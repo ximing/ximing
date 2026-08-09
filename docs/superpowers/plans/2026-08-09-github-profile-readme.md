@@ -10,7 +10,7 @@
 
 ## Global Constraints
 
-> **变更记录(2026-08-09,用户决策,覆盖下文所有冲突内容):** ① stats/langs 曾换用社区镜像 sigma-five、trophy 移除;② 上线后用户认为内容过多,**整体移除 GitHub Stats 区与贪吃蛇模块**(含 snake.yml、output 分支)。最终保留模块:Typing Header、About、Featured Works、Latest Blog Posts、Connect。Task 3 的 snake 交付已被本变更回退,Task 4 验证清单以下方修订版为准。
+> **变更记录(2026-08-09,用户决策,覆盖下文所有冲突内容):** ① stats/langs 曾换用社区镜像 sigma-five、trophy 移除;② 上线后用户认为内容过多,**整体移除 GitHub Stats 区与贪吃蛇模块**(含 snake.yml、output 分支);③ 随后**移除 Featured Works**,About Me 重写为突出 AI 工作与高难度底层工作的四条 bullet(文案经用户逐字批准;v2r-agent/vane/aipet/mpe-replay 无公开仓库,作无链接粗体),打字机第二行改为 `I build AI agents, dev tools & JavaScript engines`。最终保留模块:Typing Header、About Me、Latest Blog Posts、Connect。Task 1/3 中被移除部分的交付已被回退,Task 4 验证清单以下方修订版为准。
 
 - 目标仓库:`ximing/ximing`,本地路径 `/Users/ximing/project/mygithub/ximing`,默认分支 `master`,remote `origin` 已配置
 - README 语言:英文为主,中文点缀;不放 Tech Stack shields 徽章行(spec 明确排除)
@@ -359,7 +359,7 @@ Expected: "Latest Blog Posts" 与 "Generate Snake" 最近一次运行 conclusion
 用 csi(session:`github-profile-verify`,新标签页)打开 `https://github.com/ximing`,等页面加载后截图保存,用 Read 查看截图,逐项核对 spec §7 验证清单:
 
 1. 打字机头部显示三行轮播文案(截图只能捕获其中一行,有动画即正常)
-2. About Me、Featured Works 三组 8 个项目链接 + star 徽章显示
+2. About Me 四条 bullet(AI Agent Engineering / AI Products / The hard stuff / 写作与坐标)+ 歌词签名,渲染正常;**确认 Featured Works 区已不存在**
 3. 博客列表 5 篇文章(标题为中文属正常)
 4. Connect 行:Blog / Email / Visitors 徽章
 5. 页面无横向滚动条;**确认 Stats 区与贪吃蛇区已不存在**(无残留裂图)

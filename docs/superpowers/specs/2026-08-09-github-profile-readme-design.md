@@ -19,7 +19,7 @@ GitHub 账号 `ximing`(席铭,北京,2013 年注册,230 followers,208 公开仓�
 
 设计决策:
 
-- 用户明确选择的模块:打字机头部、About、Featured Works(策展)、博客 RSS 同步(5 篇)、博客/邮箱/访客徽章。(初版还含 GitHub Stats 全套与贪吃蛇,实施上线后用户认为内容过多,于 2026-08-09 决定移除,见 §3.4 二次修订)
+- 用户明确选择的模块:打字机头部、About Me(重写,突出 AI 与硬核底层工作)、博客 RSS 同步(5 篇)、博客/邮箱/访客徽章。(初版还含 Featured Works、GitHub Stats 全套与贪吃蛇,上线后用户认为内容过多,分两次于 2026-08-09 决定移除并重构,见 §3.2 / §3.4 修订)
 - 用户明确排除:Tech Stack shields 徽章行、3D 贡献图、社交统计卡(知乎/LeetCode 等)
 
 ## 2. 仓库结构
@@ -39,49 +39,21 @@ ximing/
 ### 3.1 Typing Header
 
 - 工具:`readme-typing-svg.demolab.com`
-- 轮播三行(英文为主):
+- 打字机轮播三行(英文为主,第二行于 2026-08-09 随 About Me 重写更新):
   1. `Hi 👋, I'm ximing (席铭)`
-  2. `I build editors, collaboration tools & JS engines`
-  3. `Coding with curiosity — 一席之地,记录,思考`
+  2. `I build AI agents, dev tools & JavaScript engines`
+  3. `Coding with curiosity · 一席之地,记录,思考`
 - 居中,字号偏大,暗色/亮色各一套颜色参数(走 `<picture>` 双图源)
 
-### 3.2 About Me
+### 3.2 About Me(2026-08-09 二次修订版)
 
-英文 bullet 3-4 行 + 结尾一行中文签名:
+页面唯一的内容区块,突出两条线:AI 工作 + 有技术壁垒的底层工作(素材来自用户博客 works/blog 目录)。四条 bullet:AI Agent Engineering(v2r-agent / csi / rab)、AI Products(aimo / vane / aipet)、The hard stuff, hand-rolled(jsvm3 字节码虚拟机 / jsvm2 解释器 / 自研二进制协议会话回放 / xexcel 公式引擎)、写作与坐标;结尾一行歌词签名。
 
-- 正在构建 aimo —— AI 驱动的笔记与知识管理产品
-- 编辑器与实时协作方向:fabric-photo / weditor / xexcel
-- 手写 JavaScript 虚拟机:jsvm3 / jsvm2
-- 中文签名沿用现有 bio 歌词:「有太多太多魔力,太少道理;太多太多游戏,只是为了好奇」
+> 2026-08-09 二次修订:Featured Works 区块移除,其内容并入重写后的 About Me;v2r-agent / vane / aipet / mpe-replay 无公开 GitHub 仓库,文案中作无链接粗体处理。
 
-### 3.3 Featured Works(核心差异模块,手工策展)
+### 3.3 Featured Works(已移除)
 
-三组,每项一行:repo 链接 + shields star 徽章 + 一句话英文描述。
-
-**Editors & Real-time Collaboration**
-
-| 项目 | 描述 |
-|------|------|
-| fabric-photo | Web-based image editor powered by Canvas(266⭐) |
-| weditor | Multi-player collaborative rich-text editor(107⭐) |
-| xexcel | Browser spreadsheet: State+Transaction+Plugin architecture, formula engine, xlsx/CSV interop |
-| mdeditor | Real-time collaborative Markdown editor |
-
-**JavaScript Engines**
-
-| 项目 | 描述 |
-|------|------|
-| jsvm3 | Custom bytecode VM in pure JS — ES5/ES2015+ in the browser |
-| jsvm2 | A JavaScript interpreter written in TypeScript |
-
-**AI Products**
-
-| 项目 | 描述 |
-|------|------|
-| aimo | AI-driven note & knowledge management system with vector search(24⭐) |
-| rab | AI-first reactive state architecture for React & TypeScript(11⭐) |
-
-star 徽章用 shields.io 动态徽章(`github/stars/ximing/<repo>`),无需手工更新数字。
+见 §3.2 二次修订。
 
 ### 3.4 GitHub Stats(已移除)
 
