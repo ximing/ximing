@@ -47,7 +47,7 @@ ximing/
 
 ### 3.2 About Me(2026-08-09 二次修订版)
 
-页面唯一的内容区块,突出两条线:AI 工作 + 有技术壁垒的底层工作(素材来自用户博客 works/blog 目录)。四条 bullet:AI Agent Engineering(v2r-agent / csi / rab)、AI Products(aimo / vane / aipet)、The hard stuff, hand-rolled(jsvm3 字节码虚拟机 / jsvm2 解释器 / 自研二进制协议会话回放 / xexcel 公式引擎)、写作与坐标;结尾一行歌词签名。
+页面唯一的内容区块,突出两条线:AI 工作 + 有技术壁垒的底层工作(素材来自用户博客 works/blog 目录)。四条 bullet:AI Agent Engineering(v2r-agent / csi / rab)、AI Products(aimo / vane / aipet)、The hard stuff, hand-rolled(jsvm3 字节码虚拟机 / jsvm2 解释器 / 自研二进制协议会话回放 / xexcel 公式引擎)、写作与坐标。(初版结尾有一行歌词签名,用户于 2026-08-09 要求移除)
 
 > 2026-08-09 二次修订:Featured Works 区块移除,其内容并入重写后的 About Me;v2r-agent / vane / aipet / mpe-replay 无公开 GitHub 仓库,文案中作无链接粗体处理。
 
