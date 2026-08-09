@@ -87,14 +87,15 @@ star 徽章用 shields.io 动态徽章(`github/stars/ximing/<repo>`),无需手�
 
 ### 3.4 GitHub Stats
 
-五个卡片,顺序:
+四个卡片,顺序:
 
 1. stats 卡 + streak 连续打卡卡(并排,`<p align>` 或表格布局)
 2. top-langs 语言卡(compact 布局)
 3. activity-graph 活动曲线图(通栏)
-4. trophy 奖杯墙(通栏,`column=7` 单行)
 
-工具:anuraghazra/github-readme-stats、DenverCoder1/github-readme-streak-stats、Ashutosh00710/github-readme-activity-graph、ryo-ma/github-profile-trophy。
+工具:github-readme-stats(经社区镜像 `github-readme-stats-sigma-five.vercel.app`,官方实例 DEPLOYMENT_PAUSED)、DenverCoder1/github-readme-streak-stats、Ashutosh00710/github-readme-activity-graph。
+
+> 2026-08-09 修订:实施时确认官方实例状态 —— github-readme-stats.vercel.app 返回 503 DEPLOYMENT_PAUSED,github-profile-trophy.vercel.app 返回 402 DEPLOYMENT_DISABLED(欠费停用,恢复无期)。用户决策:stats/langs 改用社区镜像 sigma-five,移除 trophy 模块。
 
 ### 3.5 Snake
 
@@ -126,7 +127,6 @@ gautamkrishnar/blog-post-workflow 自动写入最近 5 篇,feed:`https://www.xim
 |------|---------|---------|
 | stats / streak / top-langs | `theme=tokyonight` | 默认主题 |
 | activity-graph | `theme=tokyo-night` | `theme=github` |
-| trophy | `theme=darkhub` | 默认 |
 | snake | `github-contribution-grid-snake-dark.svg`(palette=github-dark) | `github-contribution-grid-snake.svg` |
 | typing svg | 深色文字参数 | 浅色文字参数 |
 

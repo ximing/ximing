@@ -12,7 +12,8 @@
 
 - 目标仓库:`ximing/ximing`,本地路径 `/Users/ximing/project/mygithub/ximing`,默认分支 `master`,remote `origin` 已配置
 - README 语言:英文为主,中文点缀;不放 Tech Stack shields 徽章行(spec 明确排除)
-- 所有支持主题的图片必须用 `<picture>` + `prefers-color-scheme` 明暗双图源;暗色主题参数:stats/streak/langs 用 `tokyonight`,activity-graph 用 `tokyo-night`,trophy 用 `darkhub`,snake 用 `palette=github-dark`
+- 所有支持主题的图片必须用 `<picture>` + `prefers-color-scheme` 明暗双图源;暗色主题参数:stats/streak/langs 用 `tokyonight`,activity-graph 用 `tokyo-night`,snake 用 `palette=github-dark`
+- stats / top-langs 卡片使用社区镜像 `https://github-readme-stats-sigma-five.vercel.app/`(官方实例 DEPLOYMENT_PAUSED);trophy 模块已移除(官方实例 DEPLOYMENT_DISABLED)—— 2026-08-09 用户决策
 - 访客徽章用 `https://komarev.com/ghpvc/?username=ximing`,**禁止**使用 visitor-badge.glitch.me(Glitch 托管已关停)
 - 博客 RSS:`https://www.ximing.ren/rss.xml`,显示 5 篇
 - 联系邮箱:`morningxm@hotmail.com`,博客:`https://www.ximing.ren`
@@ -79,24 +80,20 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ximing&show_icons=true&theme=tokyonight&hide_border=true">
-  <img alt="ximing's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=ximing&show_icons=true&hide_border=true">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=ximing&show_icons=true&theme=tokyonight&hide_border=true">
+  <img alt="ximing's GitHub stats" src="https://github-readme-stats-sigma-five.vercel.app/api?username=ximing&show_icons=true&hide_border=true">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=ximing&theme=tokyonight&hide_border=true">
   <img alt="GitHub streak" src="https://streak-stats.demolab.com?user=ximing&hide_border=true">
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ximing&layout=compact&theme=tokyonight&hide_border=true">
-  <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ximing&layout=compact&hide_border=true">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ximing&layout=compact&theme=tokyonight&hide_border=true">
+  <img alt="Top languages" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ximing&layout=compact&hide_border=true">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=ximing&theme=tokyo-night&hide_border=true">
   <img alt="Activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=ximing&theme=github&hide_border=true">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=ximing&theme=darkhub&no-frame=true&column=7">
-  <img alt="Trophies" src="https://github-profile-trophy.vercel.app/?username=ximing&no-frame=true&column=7">
 </picture>
 
 </div>
@@ -361,7 +358,7 @@ Expected: "Latest Blog Posts" 与 "Generate Snake" 最近一次运行 conclusion
 
 1. 打字机头部显示三行轮播文案(截图只能捕获其中一行,有动画即正常)
 2. About Me、Featured Works 三组 8 个项目链接 + star 徽章显示
-3. 五张数据卡片(stats/streak/langs/activity-graph/trophy)全部渲染、无裂图
+3. 四张数据卡片(stats/streak/langs/activity-graph)全部渲染、无裂图
 4. 贪吃蛇动画渲染
 5. 博客列表 5 篇文章(标题为中文属正常)
 6. Connect 行:Blog / Email / Visitors 徽章
