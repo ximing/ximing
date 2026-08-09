@@ -36,36 +36,6 @@
 - [aimo](https://github.com/ximing/aimo) ![stars](https://img.shields.io/github/stars/ximing/aimo?style=flat-square) — AI-driven note & knowledge management with vector search
 - [rab](https://github.com/ximing/rab) ![stars](https://img.shields.io/github/stars/ximing/rab?style=flat-square) — AI-first reactive state architecture for React & TypeScript
 
-### 📊 GitHub Stats
-
-<div align="center">
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=ximing&show_icons=true&theme=tokyonight&hide_border=true">
-  <img alt="ximing's GitHub stats" src="https://github-readme-stats-sigma-five.vercel.app/api?username=ximing&show_icons=true&hide_border=true">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=ximing&theme=tokyonight&hide_border=true">
-  <img alt="GitHub streak" src="https://streak-stats.demolab.com?user=ximing&hide_border=true">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ximing&layout=compact&theme=tokyonight&hide_border=true">
-  <img alt="Top languages" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ximing&layout=compact&hide_border=true">
-</picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=ximing&theme=tokyo-night&hide_border=true">
-  <img alt="Activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=ximing&theme=github&hide_border=true">
-</picture>
-</div>
-
-### 🐍 Contribution Snake
-
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/ximing/ximing/output/github-contribution-grid-snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/ximing/ximing/output/github-contribution-grid-snake.svg">
-  <img alt="github contribution grid snake animation" src="https://raw.githubusercontent.com/ximing/ximing/output/github-contribution-grid-snake.svg">
-</picture>
-
 ### 📝 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
