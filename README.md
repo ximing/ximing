@@ -1,40 +1,21 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&color=70A5FD&center=true&vCenter=true&width=800&lines=Hi%2C+I%27m+ximing+(%E5%B8%AD%E9%93%AD);I+build+editors%2C+collaboration+tools+%26+JS+engines;Coding+with+curiosity+%C2%B7+%E4%B8%80%E5%B8%AD%E4%B9%8B%E5%9C%B0%2C+%E8%AE%B0%E5%BD%95%2C+%E6%80%9D%E8%80%83">
-  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&color=0969DA&center=true&vCenter=true&width=800&lines=Hi%2C+I%27m+ximing+(%E5%B8%AD%E9%93%AD);I+build+editors%2C+collaboration+tools+%26+JS+engines;Coding+with+curiosity+%C2%B7+%E4%B8%80%E5%B8%AD%E4%B9%8B%E5%9C%B0%2C+%E8%AE%B0%E5%BD%95%2C+%E6%80%9D%E8%80%83">
-  <img alt="Hi, I'm ximing" src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&color=0969DA&center=true&vCenter=true&width=800&lines=Hi%2C+I%27m+ximing+(%E5%B8%AD%E9%93%AD);I+build+editors%2C+collaboration+tools+%26+JS+engines;Coding+with+curiosity+%C2%B7+%E4%B8%80%E5%B8%AD%E4%B9%8B%E5%9C%B0%2C+%E8%AE%B0%E5%BD%95%2C+%E6%80%9D%E8%80%83">
+  <source media="(prefers-color-scheme: dark)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&color=70A5FD&center=true&vCenter=true&width=800&lines=Hi%2C+I%27m+ximing+(%E5%B8%AD%E9%93%AD);I+build+AI+agents%2C+dev+tools+%26+JavaScript+engines;Coding+with+curiosity+%C2%B7+%E4%B8%80%E5%B8%AD%E4%B9%8B%E5%9C%B0%2C+%E8%AE%B0%E5%BD%95%2C+%E6%80%9D%E8%80%83">
+  <source media="(prefers-color-scheme: light)" srcset="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&color=0969DA&center=true&vCenter=true&width=800&lines=Hi%2C+I%27m+ximing+(%E5%B8%AD%E9%93%AD);I+build+AI+agents%2C+dev+tools+%26+JavaScript+engines;Coding+with+curiosity+%C2%B7+%E4%B8%80%E5%B8%AD%E4%B9%8B%E5%9C%B0%2C+%E8%AE%B0%E5%BD%95%2C+%E6%80%9D%E8%80%83">
+  <img alt="Hi, I'm ximing" src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=26&duration=3000&pause=800&color=0969DA&center=true&vCenter=true&width=800&lines=Hi%2C+I%27m+ximing+(%E5%B8%AD%E9%93%AD);I+build+AI+agents%2C+dev+tools+%26+JavaScript+engines;Coding+with+curiosity+%C2%B7+%E4%B8%80%E5%B8%AD%E4%B9%8B%E5%9C%B0%2C+%E8%AE%B0%E5%BD%95%2C+%E6%80%9D%E8%80%83">
 </picture>
 
 </div>
 
 ### 👋 About Me
 
-- 🔭 Building **[aimo](https://github.com/ximing/aimo)** — an AI-driven note & knowledge management product
-- 📝 Long-time maker of editors & real-time collaboration tools (canvas / rich-text / spreadsheet)
-- 🌱 Hand-rolling JavaScript engines for fun — bytecode VMs & interpreters in pure TS/JS
-- 📍 Beijing · ✍️ Writing at [一席之地,记录,思考](https://www.ximing.ren)
+- 🤖 **AI Agent Engineering** — I build agent harnesses, runtimes & AI-first dev tools: **v2r-agent** (Vue 2 → React migration agent, 99% diff acceptance, long-running autonomy) · [csi](https://github.com/ximing/csi) (let AI drive your real Chrome — sessions, anti-bot included) · [rab](https://github.com/ximing/rab) (AI-first reactive state shared by humans, agents & Web MCP)
+- 🧠 **AI Products** — [aimo](https://github.com/ximing/aimo) (AI-driven knowledge management) · **vane** (Rust-core hybrid vector + BM25 retrieval engine, embeddable in Node / Go / browsers) · **aipet** (an LLM desktop companion that remembers you)
+- ⚙️ **The hard stuff, hand-rolled** — a JS engine with custom bytecode & instruction set ([jsvm3](https://github.com/ximing/jsvm3)), a JS interpreter in TS ([jsvm2](https://github.com/ximing/jsvm2)), session replay on a self-designed binary protocol (<1ms/frame, 50%+ smaller than JSON+gzip), a from-scratch spreadsheet formula engine ([xexcel](https://github.com/ximing/xexcel))
+- ✍️ Writing about AI-Native engineering at [一席之地,记录,思考](https://www.ximing.ren) · 📍 Beijing
 
 > 有太多太多魔力,太少道理;太多太多游戏,只是为了好奇。
-
-### ⭐ Featured Works
-
-**Editors & Real-time Collaboration**
-
-- [fabric-photo](https://github.com/ximing/fabric-photo) ![stars](https://img.shields.io/github/stars/ximing/fabric-photo?style=flat-square) — Web-based image editor powered by Canvas
-- [weditor](https://github.com/ximing/weditor) ![stars](https://img.shields.io/github/stars/ximing/weditor?style=flat-square) — Multi-player collaborative rich-text editor
-- [xexcel](https://github.com/ximing/xexcel) ![stars](https://img.shields.io/github/stars/ximing/xexcel?style=flat-square) — Browser spreadsheet: State + Transaction + Plugin architecture, formula engine, xlsx/CSV interop
-- [mdeditor](https://github.com/ximing/mdeditor) ![stars](https://img.shields.io/github/stars/ximing/mdeditor?style=flat-square) — Real-time collaborative Markdown editor
-
-**JavaScript Engines**
-
-- [jsvm3](https://github.com/ximing/jsvm3) ![stars](https://img.shields.io/github/stars/ximing/jsvm3?style=flat-square) — Custom bytecode VM in pure JS, running ES5/ES2015+ in the browser
-- [jsvm2](https://github.com/ximing/jsvm2) ![stars](https://img.shields.io/github/stars/ximing/jsvm2?style=flat-square) — A JavaScript interpreter written in TypeScript
-
-**AI Products**
-
-- [aimo](https://github.com/ximing/aimo) ![stars](https://img.shields.io/github/stars/ximing/aimo?style=flat-square) — AI-driven note & knowledge management with vector search
-- [rab](https://github.com/ximing/rab) ![stars](https://img.shields.io/github/stars/ximing/rab?style=flat-square) — AI-first reactive state architecture for React & TypeScript
 
 ### 📝 Latest Blog Posts
 
