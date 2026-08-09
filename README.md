@@ -15,8 +15,6 @@
 - ⚙️ **The hard stuff, hand-rolled** — a JS engine with custom bytecode & instruction set ([jsvm3](https://github.com/ximing/jsvm3)), a JS interpreter in TS ([jsvm2](https://github.com/ximing/jsvm2)), session replay on a self-designed binary protocol (<1ms/frame, 50%+ smaller than JSON+gzip), a from-scratch spreadsheet formula engine ([xexcel](https://github.com/ximing/xexcel))
 - ✍️ Writing about AI-Native engineering at [一席之地,记录,思考](https://www.ximing.ren) · 📍 Beijing
 
-> 有太多太多魔力,太少道理;太多太多游戏,只是为了好奇。
-
 ### 📝 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
