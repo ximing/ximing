@@ -57,7 +57,7 @@ ximing/
 
 ### 3.4 GitHub Stats(已移除)
 
-> 2026-08-09 二次修订:用户看过实际渲染效果后认为内容过多,决定**整体移除** GitHub Stats 区(stats/streak/top-langs/activity-graph)与贪吃蛇模块(含 snake.yml workflow 和 output 分支)。最终版面只保留:Typing Header、About Me、Featured Works、Latest Blog Posts、Connect。
+> 2026-08-09 二次修订:用户看过实际渲染效果后认为内容过多,决定**整体移除** GitHub Stats 区(stats/streak/top-langs/activity-graph)与贪吃蛇模块(含 snake.yml workflow 和 output 分支)。最终版面只保留:Typing Header、About Me、Latest Blog Posts、Connect(Featured Works 随后亦移除,见 §3.2)。
 
 ### 3.5 Snake(已移除)
 
@@ -114,5 +114,5 @@ gautamkrishnar/blog-post-workflow 自动写入最近 5 篇,feed:`https://www.xim
 
 ## 8. 维护说明
 
-- Featured Works 为手工策展:新项目要展示需手动编辑 README(设计意图,非缺陷)
-- star 徽章与博客列表自动更新,日常零维护
+- About Me 中的项目提及为手工维护:新项目要展示需手动编辑 README(设计意图,非缺陷);未公开项目(v2r-agent / vane / aipet 等)只写粗体名字、不加链接
+- 博客列表由 blog-posts.yml 自动更新,日常零维护
