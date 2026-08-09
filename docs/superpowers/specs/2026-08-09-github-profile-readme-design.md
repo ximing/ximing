@@ -19,7 +19,7 @@ GitHub 账号 `ximing`(席铭,北京,2013 年注册,230 followers,208 公开仓�
 
 设计决策:
 
-- 用户明确选择的模块:打字机头部、About、Featured Works(策展)、GitHub Stats 全套(stats + streak + top-langs + activity-graph + trophy)、贪吃蛇动画、博客 RSS 同步(5 篇)、博客/邮箱/访客徽章
+- 用户明确选择的模块:打字机头部、About、Featured Works(策展)、博客 RSS 同步(5 篇)、博客/邮箱/访客徽章。(初版还含 GitHub Stats 全套与贪吃蛇,实施上线后用户认为内容过多,于 2026-08-09 决定移除,见 §3.4 二次修订)
 - 用户明确排除:Tech Stack shields 徽章行、3D 贡献图、社交统计卡(知乎/LeetCode 等)
 
 ## 2. 仓库结构
@@ -28,13 +28,11 @@ GitHub 账号 `ximing`(席铭,北京,2013 年注册,230 followers,208 公开仓�
 ximing/
 ├── README.md
 └── .github/workflows/
-    ├── snake.yml          # 贪吃蛇动画生成
     └── blog-posts.yml     # 博客 RSS 同步
 ```
 
-- 贪吃蛇 SVG 输出到 `output` 分支,不污染默认分支
 - 博客列表直接写回默认分支 README.md
-- 数据卡片全部为外链图片,无需 workflow
+- (snake.yml 与 output 分支已随模块移除)
 
 ## 3. README.md 版面(自上而下)
 
@@ -85,22 +83,13 @@ ximing/
 
 star 徽章用 shields.io 动态徽章(`github/stars/ximing/<repo>`),无需手工更新数字。
 
-### 3.4 GitHub Stats
+### 3.4 GitHub Stats(已移除)
 
-四个卡片,顺序:
+> 2026-08-09 二次修订:用户看过实际渲染效果后认为内容过多,决定**整体移除** GitHub Stats 区(stats/streak/top-langs/activity-graph)与贪吃蛇模块(含 snake.yml workflow 和 output 分支)。最终版面只保留:Typing Header、About Me、Featured Works、Latest Blog Posts、Connect。
 
-1. stats 卡 + streak 连续打卡卡(并排,`<p align>` 或表格布局)
-2. top-langs 语言卡(compact 布局)
-3. activity-graph 活动曲线图(通栏)
+### 3.5 Snake(已移除)
 
-工具:github-readme-stats(经社区镜像 `github-readme-stats-sigma-five.vercel.app`,官方实例 DEPLOYMENT_PAUSED)、DenverCoder1/github-readme-streak-stats、Ashutosh00710/github-readme-activity-graph。
-
-> 2026-08-09 修订:实施时确认官方实例状态 —— github-readme-stats.vercel.app 返回 503 DEPLOYMENT_PAUSED,github-profile-trophy.vercel.app 返回 402 DEPLOYMENT_DISABLED(欠费停用,恢复无期)。用户决策:stats/langs 改用社区镜像 sigma-five,移除 trophy 模块。
-
-### 3.5 Snake
-
-- `Platane/snk/svg-only@v3` 生成 `github-contribution-grid-snake.svg` 与 `github-contribution-grid-snake-dark.svg`
-- README 用 `<picture>` 明暗自适应引用 `output` 分支 raw URL
+见 §3.4 的二次修订。模块与配套 workflow、output 分支一并移除。
 
 ### 3.6 Latest Blog Posts
 
@@ -121,22 +110,13 @@ gautamkrishnar/blog-post-workflow 自动写入最近 5 篇,feed:`https://www.xim
 
 ## 4. 明暗主题适配
 
-所有支持主题参数的图片统一用 `<picture>` + `prefers-color-scheme` 双图源:
+仅存的动态图片均处理明暗:typing svg 用 `<picture>` + `prefers-color-scheme` 双图源(深色/浅色文字参数各一);shields 徽章与访客徽章为自适应配色,无需处理。
 
-| 模块 | 暗色参数 | 亮色参数 |
-|------|---------|---------|
-| stats / streak / top-langs | `theme=tokyonight` | 默认主题 |
-| activity-graph | `theme=tokyo-night` | `theme=github` |
-| snake | `github-contribution-grid-snake-dark.svg`(palette=github-dark) | `github-contribution-grid-snake.svg` |
-| typing svg | 深色文字参数 | 浅色文字参数 |
+> 原 stats/streak/langs/activity-graph/snake 的主题参数表随模块移除作废(见 §3.4 二次修订)。
 
 ## 5. 自动化工作流
 
-### snake.yml
-
-- 触发:`schedule`(每天一次,UTC 低峰非整点,如 `cron: "17 21 * * *"`)、`workflow_dispatch`、`push`(默认分支)
-- 步骤:`Platane/snk/svg-only@v3` 生成两张 SVG 到 `dist/` → `crazy-max/ghaction-github-pages@v3.1.0` 推到 `output` 分支
-- 权限:`contents: write`(默认 GITHUB_TOKEN,无需 PAT)
+只保留博客同步一个 workflow(snake.yml 已随模块移除):
 
 ### blog-posts.yml
 
@@ -150,17 +130,17 @@ gautamkrishnar/blog-post-workflow 自动写入最近 5 篇,feed:`https://www.xim
 
 ## 6. 容错与降级
 
-- 第三方卡片服务(vercel.app / demolab.com)宕机只影响单张图片,不影响其它模块 —— 接受该风险,不自托管
+- 第三方图片服务(demolab.com / shields.io / komarev.com)宕机只影响单张图片,不影响其它模块 —— 接受该风险,不自托管
 - blog-post-workflow 抓取 RSS 失败时不改动 README(该 Action 默认行为),已写入的列表不会被清空
 - 首次部署后手动触发各 workflow 一次,确认产物生成,再检查主页渲染
 
 ## 7. 验证清单
 
 1. push 后 `gh api repos/ximing/ximing/contents/README.md` 确认文件就位
-2. 手动触发 snake.yml、blog-posts.yml,确认:output 分支出现两张 SVG;README 的 BLOG-POST-LIST 区间被写入 5 篇文章
+2. 手动触发 blog-posts.yml,确认 README 的 BLOG-POST-LIST 区间被写入 5 篇文章
 3. csi 打开 `https://github.com/ximing` 截图,逐项核对:所有图片可加载、明暗 srcset 均有效、布局无横向滚动、博客列表已填充
 
 ## 8. 维护说明
 
 - Featured Works 为手工策展:新项目要展示需手动编辑 README(设计意图,非缺陷)
-- 数据卡片、star 徽章、贪吃蛇、博客列表全部自动更新,日常零维护
+- star 徽章与博客列表自动更新,日常零维护
