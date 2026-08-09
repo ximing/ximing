@@ -41,26 +41,21 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api?username=ximing&show_icons=true&theme=tokyonight&hide_border=true">
-  <img alt="ximing's GitHub stats" src="https://github-readme-stats.vercel.app/api?username=ximing&show_icons=true&hide_border=true">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api?username=ximing&show_icons=true&theme=tokyonight&hide_border=true">
+  <img alt="ximing's GitHub stats" src="https://github-readme-stats-sigma-five.vercel.app/api?username=ximing&show_icons=true&hide_border=true">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://streak-stats.demolab.com?user=ximing&theme=tokyonight&hide_border=true">
   <img alt="GitHub streak" src="https://streak-stats.demolab.com?user=ximing&hide_border=true">
 </picture>
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats.vercel.app/api/top-langs/?username=ximing&layout=compact&theme=tokyonight&hide_border=true">
-  <img alt="Top languages" src="https://github-readme-stats.vercel.app/api/top-langs/?username=ximing&layout=compact&hide_border=true">
+  <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ximing&layout=compact&theme=tokyonight&hide_border=true">
+  <img alt="Top languages" src="https://github-readme-stats-sigma-five.vercel.app/api/top-langs/?username=ximing&layout=compact&hide_border=true">
 </picture>
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://github-readme-activity-graph.vercel.app/graph?username=ximing&theme=tokyo-night&hide_border=true">
   <img alt="Activity graph" src="https://github-readme-activity-graph.vercel.app/graph?username=ximing&theme=github&hide_border=true">
 </picture>
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://github-profile-trophy.vercel.app/?username=ximing&theme=darkhub&no-frame=true&column=7">
-  <img alt="Trophies" src="https://github-profile-trophy.vercel.app/?username=ximing&no-frame=true&column=7">
-</picture>
-
 </div>
 
 ### 📝 Latest Blog Posts
