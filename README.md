@@ -18,10 +18,10 @@
 ### 📝 Latest Blog Posts
 
 <!-- BLOG-POST-LIST:START -->
-- [Google OKF：面向 AI 知识资产的 Markdown 交换格式](https://www.ximing.ren/post/2026/08-06-google-open-knowledge-format/)
-- [Harness Agent 的组成要素：从七层到八层横切面的完整模型](https://www.ximing.ren/post/2026/08-04-harness-agent-components/)
-- [Claude 工程化演进全景：从 25 篇 Anthropic 官方工程博客读 AI Native Engineering](https://www.ximing.ren/post/2026/07-31-claude-engineering-evolution/)
-- [Pi agent-core harness 与 Claude Code 的 Session 和上下文管理](https://www.ximing.ren/post/2026/07-11-pi-claude-session-context/)
+- [Google OKF：面向 AI 知识资产的 Markdown 交换格式](https://www.ximing.ren/post/2026/08-15-google-open-knowledge-format/)
+- [Harness Agent 的组成要素分析](https://www.ximing.ren/post/2026/08-04-harness-agent-components/)
+- [Anthropic Claude 工程化演进分析](https://www.ximing.ren/post/2026/07-31-claude-engineering-evolution/)
+- [Pi agent-core harness 与 Claude Code 的 Session 和 Context 对比](https://www.ximing.ren/post/2026/07-11-pi-claude-session-context/)
 - [Graph Engineering：Agent 从单一闭环走向可治理的执行网络](https://www.ximing.ren/post/2026/07-06-graph-engineering/)
 <!-- BLOG-POST-LIST:END -->
 
