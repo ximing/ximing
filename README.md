@@ -22,7 +22,7 @@
 - [Google OKF：面向 AI 知识资产的 Markdown 交换格式](https://www.ximing.ren/post/2026/08-15-google-open-knowledge-format/)
 - [Harness Agent 的组成要素分析](https://www.ximing.ren/post/2026/08-04-harness-agent-components/)
 - [Anthropic Claude 工程化演进分析](https://www.ximing.ren/post/2026/07-31-claude-engineering-evolution/)
-- [Pi agent-core harness 与 Claude Code 的 Session 和 Context 对比](https://www.ximing.ren/post/2026/07-11-pi-claude-session-context/)
+- [越用越强：知识库、模型路由与盯盘仪表盘](https://www.ximing.ren/post/2026/07-26-v2r-kb-model-router-studio/)
 <!-- BLOG-POST-LIST:END -->
 
 ### 📫 Connect
