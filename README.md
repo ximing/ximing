@@ -19,10 +19,10 @@
 
 <!-- BLOG-POST-LIST:START -->
 - [Jev：System One 模型的思考和尝试](https://www.ximing.ren/post/2026/09-21-jev-system-one/)
+- [AI First 理念落地：通过自研应用取消滴答清单、flomo、Cubox 和 MarginNote订阅](https://www.ximing.ren/post/2026/09-10-ai-first-apps/)
 - [Agent RSI 复盘](https://www.ximing.ren/post/2026/08-30-agent-rsi-review/)
 - [Google OKF：面向 AI 知识资产的 Markdown 交换格式](https://www.ximing.ren/post/2026/08-15-google-open-knowledge-format/)
 - [Harness Agent 的组成要素分析](https://www.ximing.ren/post/2026/08-04-harness-agent-components/)
-- [Anthropic Claude 工程化演进分析](https://www.ximing.ren/post/2026/07-31-claude-engineering-evolution/)
 <!-- BLOG-POST-LIST:END -->
 
 ### 📫 Connect
